@@ -17,4 +17,4 @@ Some Add-on templates for Minecraft Bedrock Edition.
 - 4D皮膚
 
 ## 如何使用
-從Release頁面下載壓縮檔案，或者clone這個repo，再按需求修改。每個目錄裡面就是一個Add-On。
+從[Mediafire](https://www.mediafire.com/folder/0fxoez81g3y5o/Tutorial)頁面下載壓縮檔，或者clone這個repo，再按需求修改。每個目錄裡面就是一個Add-On。
