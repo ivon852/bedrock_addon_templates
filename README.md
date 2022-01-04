@@ -1,15 +1,20 @@
 # Bedrock Add-On templates
 Some Add-on templates for Minecraft Bedrock Edition.
 
-Minecraft基岩版Add-on模組的範本。包含以下範本
-- 物品
-- 方塊
-- 實體
-- 指令
-- 生態系
-- 粒子
-- UI
+[Readme in English]()
+
+這些是Minecraft基岩版Add-on模組的範本。
+如果想知道程式碼原理，請到[部落格](https://www.mcbedev.net/2021/07/add-on-1-bridge.html)查看教學。
+包含以下內容
+
+- 自訂物品
+- 自訂方塊
+- 自訂實體
+- 自訂指令
+- 自訂生態系
+- 自訂粒子
+- 自訂UI
 - 4D皮膚
 
-## How to use
-Download archives from Releases or clone this repository. Each folder contains an Add-On.
+## 如何使用
+從Release頁面下載壓縮檔案，或者clone這個repo，再按需求修改。每個目錄裡面就是一個Add-On。
