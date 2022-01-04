@@ -5,7 +5,8 @@ Some Add-on templates for Minecraft Bedrock Edition.
 
 這些是Minecraft基岩版Add-on模組的範本。
 如果想知道程式碼原理，請到[部落格](https://www.mcbedev.net/2021/07/add-on-1-bridge.html)查看教學。
-包含以下內容
+
+此repo包含以下內容:
 
 - 自訂物品
 - 自訂方塊
