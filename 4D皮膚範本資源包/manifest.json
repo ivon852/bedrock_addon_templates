@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "4D皮膚範本資源包",
+		"description": "4D皮膚範本資源包 by Twitter@Ivon852。內含2個4D皮膚，按齒輪切換。",
+		"min_engine_version": [
+			1,
+			17,
+			0
+		],
+		"uuid": "bca0d2ea-47df-447c-b397-c550c26ed859",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "4D皮膚範本資源包",
+			"type": "resources",
+			"uuid": "df30e203-78ae-4e13-ac15-3469313f05af",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "subpack_1",
+			"name": "4D皮膚(整個取代掉)",
+			"memory_tier": 0
+		},
+		{
+			"folder_name": "subpack_2",
+			"name": "4D皮膚(只添加配件)",
+			"memory_tier": 1
+		}
+	]
+}

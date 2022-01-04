@@ -1,0 +1,47 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.beefist",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "RightArm",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-8, 9, -2], "size": [4, 4, 4], "inflate": 1, "uv": [77, 16]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{"origin": [4, 9, -2], "size": [4, 4, 4], "inflate": 1, "uv": [98, 5]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "LeftLeg",
+					"pivot": [1.9, 12, 0]
+				}
+			]
+		}
+	]
+}

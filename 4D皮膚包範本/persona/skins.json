@@ -1,0 +1,17 @@
+{
+	"skins": [
+		//第一個皮膚
+		{
+			"localization_name": "Beefist",
+			//皮膚ID
+			"geometry": "geometry.Beefist",
+			//皮膚使用的模型
+			"texture": "Beefist.png",
+			//皮膚材質名稱
+			"type": "free"
+		}
+	],
+	//皮膚包名稱
+	"serialize_name": "Custom4DSkinPack",
+	"localization_name": "Custom4DSkinPack"
+}
