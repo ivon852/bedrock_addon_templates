@@ -15,4 +15,4 @@ These templates are for my Bedorck Add-on tutorials in Chinese. Include:
 - 4D Skins
 
 ## How to use
-Download archives from Releases or clone this repository. Each folder contains an Add-On.
+Download archives from [Mediafire](https://www.mediafire.com/folder/0fxoez81g3y5o/Tutorial) or clone this repository. Each folder contains an Add-On.
