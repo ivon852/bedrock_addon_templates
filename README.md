@@ -1,7 +1,7 @@
 # Bedrock Add-On templates
 Some Add-on templates for Minecraft Bedrock Edition.
 
-[Readme in English]()
+[Readme in English](https://github.com/ivon852/bedrock_addon_templates/blob/main/README_EN.md)
 
 這些是Minecraft基岩版Add-on模組的範本。
 如果想知道程式碼原理，請到[部落格](https://www.mcbedev.net/2021/07/add-on-1-bridge.html)查看教學。
