@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Custom Crafting Table Behavior pack",
+        "name": "Custom Crafting Table Behavior Pack",
+        "uuid": "6b192376-c599-494d-b241-4ecf85f7879c",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            17,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Custom Crafting Table Behavior pack",
+            "type": "data",
+            "uuid": "9b2c0299-73e7-4df0-9179-0c4b40bba58f",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}

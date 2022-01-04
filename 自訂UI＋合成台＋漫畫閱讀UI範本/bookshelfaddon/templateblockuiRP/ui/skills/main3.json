@@ -1,0 +1,279 @@
+{
+  "namespace": "skills_3",
+  "main_content_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      {
+        "loading_skills_3_panel@skills_3.main_banner": {
+          "anchor_to": "top_left",
+          "anchor_from": "top_left",
+          "size": [
+            "100%",
+            58
+          ],
+          "controls": [
+            {
+              "loading_skills_3_label@play.loading_label": {
+                "$message_binding_name": "#skills_3_loading_display_message"
+              }
+            },
+            {
+              "progress_loading_bars@play.progress_loading_bars": {
+                "offset": [
+                  -3000,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "$visible_binding_name": "#loading_skills_3_data"
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#loading_skills_3_panel_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "text_scroll@common.scrolling_panel": {
+          "size": [
+            "100% - 20px",
+            "100% - 6px"
+          ],
+          "$always_handle_scrolling": true,
+          "$scrolling_content": "skills_1.home_screen_content",
+          "$show_background": false,
+          "layer": 12,
+          "$scroll_size": [
+            5,
+            "100% - 4px"
+          ],
+          "$scrolling_pane_size": [
+            "100% - 4px",
+            "100%"
+          ],
+          "$scrolling_pane_offset": [
+            22,
+            0
+          ],
+          "$scroll_bar_right_padding_size": [
+            0,
+            0
+          ],
+          "$scroll_size_touch": "$scroll_size",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "t6_icon@t6_icon": {
+          "type": "image",
+          "texture": "textures/ui/t6",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "layer": 1,
+          "size": [
+            1000,
+            1000
+          ],
+          "offset": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "gen_icon@gen_icon": {
+          "type": "image",
+          "texture": "textures/ui/gen",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "layer": 12,
+          "size": [
+            295,
+            295
+          ],
+          "offset": [
+            -20,
+            -120
+          ]
+        }
+      },
+      {
+        "scrolling_panel@common.scrolling_panel": {
+          "anchor_to": "top_left",
+          "anchor_from": "top_left",
+          "$show_background": false,
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "$scrolling_content": "skills_3.inside_header_panel",
+          "$scroll_size": [
+            5,
+            "100% - 4px"
+          ],
+          "$scrolling_pane_size": [
+            "100% - 4px",
+            "100%"
+          ],
+          "$scrolling_pane_offset": [
+            2,
+            0
+          ],
+          "$scroll_bar_right_padding_size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "(not #loading_skills_3_panel_visible)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "inside_header_panel": {
+    "type": "stack_panel",
+    "size": [
+      "40%",
+      "40%c"
+    ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "offset": [
+      380,
+      0
+    ],
+    "controls": [
+      {
+        "padding_indent2_0": {
+          "type": "panel",
+          "size": [
+            "100%",
+            2
+          ]
+        }
+      },
+      {
+        "player_stat_panel": {
+          "type": "panel",
+          "size": [
+            "100%",
+            70
+          ], // (Y - 10) must be divisible by 3 or the spacing between Gamerscore, Achievements, and Time Played will not be texel perfect
+          "controls": [
+            {
+              "player_stats@player_stats": {
+                "layer": 1
+              }
+            },
+            {
+              "focus@focus_border_button": {}
+            }
+          ]
+        }
+      },
+      {
+        "padding_indent2_1": {
+          "type": "panel",
+          "size": [
+            "100%",
+            1
+          ]
+        }
+      },
+      {
+        "skills_3_grid@skills_3_list_grid": {
+          "layer": 2
+        }
+      },
+      {
+        "padding_indent2_2": {
+          "type": "panel",
+          "size": [
+            "100%",
+            1
+          ]
+        }
+      }
+    ]
+  },
+  "panel_indent": {
+    "type": "panel",
+    "size": [
+      "100% - 4px",
+      "100% - 4px"
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center"
+  },
+  "normal_thin_button": {
+    "type": "image",
+    "texture": "textures/ui/NormalButtonThinNewBevel"
+  },
+  "focus_border": {
+    "type": "image",
+    "texture": "textures/ui/square_image_border_white",
+    "color": "$non_interact_border_color"
+  },
+  "skills_3_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      }
+    ],
+    "$screen_content": "skills_3.skills_3_screen_content",
+    "$header_safezone_control": "common_store.store_top_bar_filler",
+    "$header_bar_control": "common_store.store_top_bar",
+    "$is_full_screen_layout": true
+  },
+  "skills_3_screen_content": {
+    "type": "panel",
+    "controls": [
+      {
+        "root_panel": {
+          "type": "panel",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "main_panel@common.fullscreen_header": {
+                "$back_button_has_title": true,
+                "$button_text": "gui.skills_3s",
+                "$child_control": "skills_3.main_content_panel"
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#crafting_label_text"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#crafting_label_text = manga)",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

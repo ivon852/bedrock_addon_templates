@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "newblock:creeperblock_u"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " ##",
+      " ##",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "result": {
+      "item": "newblock:creeperblock_u",
+      "count": 1
+    }
+  }
+}

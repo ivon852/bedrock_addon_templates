@@ -1,0 +1,51 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "newblock:info_block"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 1,
+			"minecraft:display_name": "info_block",
+			"minecraft:destroy_time": 1,
+			"minecraft:unit_cube": {},
+			"minecraft:entity_collision": true,
+			"minecraft:pick_collision": true,
+			"minecraft:crafting_table": {
+				"custom_description": "container.newblock.info", // Name shown in GUI, you will use this name in the ui
+				"grid_size": 3, // Currently only supports 3
+				"crafting_tags": [
+					"info"
+				]
+			},
+			"minecraft:material_instances": {
+				"up": {
+					"texture": "side_info", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				},
+				"down": {
+					"texture": "side_info", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				},
+				"south": {
+					"texture": "side_info", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				},
+				"north": {
+					"texture": "side_info", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				},
+				"west": {
+					"texture": "side_info", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				},
+				"east": {
+					"texture": "side_info", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				}
+			}
+		},
+		"events": {},
+		"permutations": []
+	}
+}

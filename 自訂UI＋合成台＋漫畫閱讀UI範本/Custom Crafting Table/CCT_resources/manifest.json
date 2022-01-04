@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Custom Crafting Table Resource pack",
+        "name": "Custom Crafting Table Resource Pack",
+        "uuid": "e56071af-a3a1-4ed6-b9fa-d0f7ee0b6635",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            17,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Custom Crafting Table Resource pack",
+            "type": "resources",
+            "uuid": "8b3f2688-2a48-4dc2-ad55-2829aa36f742",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}

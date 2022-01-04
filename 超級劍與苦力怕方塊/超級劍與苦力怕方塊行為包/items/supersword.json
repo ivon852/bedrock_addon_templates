@@ -1,0 +1,60 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			//物品ID
+			"identifier": "newitem:supersword",
+			//分類
+			"category": "items"
+		},
+		"components": {
+			//物品名稱，要在資源包的/texts/zh_TW.json編輯
+			"minecraft:display_name": {
+				"value": "item.newitem:supersword.name"
+			},
+			//創造背包中物品的分類
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.items"
+			},
+			//物品在手上的位置，圖片像素16x16以上就要重新設定座標。
+			"minecraft:render_offsets": "tools",
+			//物品材質名稱(參照資源包/textures/item_texture所定義的)
+			"minecraft:icon": {
+				"texture": "supersword"
+			},
+			//使用物品觸發事件
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "use"
+				}
+			},
+			//攻擊傷害
+			"minecraft:damage": 20,
+			//一組數量
+			"minecraft:max_stack_size": 1,
+			//冷卻時間
+			"minecraft:cooldown": {
+				"category": "chorus_fruit",
+				"duration": 5
+			}
+		},
+		//事件
+		"events": {
+			"use": {
+				//發射物品
+				"shoot": {
+					"projectile": "minecraft:snowball",
+					"launch_power": 5,
+					"angle_offset": 20
+				},
+				//執行指令
+				"run_command": {
+					"command": [
+						"summon lightning_bolt"
+					],
+					"target": "holder"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Made by Twitter@Ivon Huang",
+        "name": "Custom UI Tutorial Behavior pack",
+        "uuid": "9939af85-931f-4265-b737-08256c66fea3",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            17,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Example behavior pack",
+            "type": "data",
+            "uuid": "5049b890-1545-4955-8c88-a085c8ce1779",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}

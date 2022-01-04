@@ -1,0 +1,422 @@
+/*
+  final_panel -> main_panel -> scrolling -> homescreen
+*/
+{
+  "namespace": "infoui", //Unique namspace
+  /*
+  Elements
+  */
+  //Background image
+  "background_image@horse.overlay_image": {
+    "texture": "textures/ui/background",
+    "alpha": 1
+  },
+
+  //UI Contents
+  "homescreen": {
+    "type": "stack_panel",
+    "offset": [
+      0,
+      0
+    ],
+    //Headers, images and texts. Text + Image
+    //Use size y to control line spacing
+    "controls": [
+      {
+        "row0": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            50
+          ],
+          "controls": [
+            {
+              "header_0@how_to_play_common.header": {
+                "$text": "newblock.info.header1"
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "row00": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            50
+          ],
+          "controls": [
+            {
+              "paragraph_1@how_to_play_common.paragraph": {
+                "$text": "newblock.info.text0"
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "row1t": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            10
+          ],
+          "controls": [
+            {
+              "paragraph_1@how_to_play_common.paragraph": {
+                "$text": "newblock.info.text1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row1": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            250
+          ],
+          "controls": [
+            {
+              "1": {
+                "type": "image",
+                "texture": "textures/ui/info1"
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "row2t": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            10
+          ],
+          "controls": [
+            {
+              "paragraph_1@how_to_play_common.paragraph": {
+                "$text": "newblock.info.text2"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row2": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            250
+          ],
+          "controls": [
+            {
+              "1": {
+                "type": "image",
+                "texture": "textures/ui/info2"
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "row3t": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            10
+          ],
+          "controls": [
+            {
+              "paragraph_1@how_to_play_common.paragraph": {
+                "$text": "newblock.info.text3"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row3": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            250
+          ],
+          "controls": [
+            {
+              "1": {
+                "type": "image",
+                "texture": "textures/ui/info3"
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "row4t": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            10
+          ],
+          "controls": [
+            {
+              "paragraph_1@how_to_play_common.paragraph": {
+                "$text": "newblock.info.text4"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row4": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            250
+          ],
+          "controls": [
+            {
+              "1": {
+                "type": "image",
+                "texture": "textures/ui/info4"
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "row5t": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            10
+          ],
+          "controls": [
+            {
+              "paragraph_1@how_to_play_common.paragraph": {
+                "$text": "newblock.info.text5"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row5": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            250
+          ],
+          "controls": [
+            {
+              "1": {
+                "type": "image",
+                "texture": "textures/ui/info5"
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "row6t": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            10
+          ],
+          "controls": [
+            {
+              "paragraph_1@how_to_play_common.paragraph": {
+                "$text": "newblock.info.text6"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row6": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            250
+          ],
+          "controls": [
+            {
+              "1": {
+                "type": "image",
+                "texture": "textures/ui/info6"
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "row7t": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            10
+          ],
+          "controls": [
+            {
+              "paragraph_1@how_to_play_common.paragraph": {
+                "$text": "newblock.info.text7"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row7": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            250
+          ],
+          "controls": [
+            {
+              "1": {
+                "type": "image",
+                "texture": "textures/ui/info7"
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "row8t": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            20
+          ],
+          "controls": [
+            {
+              "paragraph_1@how_to_play_common.paragraph": {
+                "$text": "newblock.info.text8"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row8": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [
+            "100%",
+            250
+          ],
+          "controls": [
+            {
+              "1": {
+                "type": "image",
+                "texture": "textures/ui/info8"
+              }
+            }
+          ]
+        }
+      }
+      
+    ]
+  },
+  /*
+  UI
+  */
+  "scrolling@common.scrolling_panel": {
+    "$scrolling_content": "infoui.homescreen",
+    "$show_background": false,
+    "anchor_from": "center",
+    "anchor_to": "center"
+  },
+  "main_panel@common.root_panel": {
+    "layer": 1,
+    "size": [
+      "90%",
+      "90%"
+    ],
+    "controls": [
+      {
+        "common_panel@common.common_panel": {
+          "offset": [
+            0,
+            0
+          ],
+          "$show_close_button": true
+        }
+      },
+      //Background
+      {
+        "bg@background_image": {
+          "layer": 2,
+          "size": [
+            "90%",
+            "95%"
+          ],
+          "offset": [
+            0,
+            0
+          ]
+        }
+      },
+      //UI contents
+      {
+        "sg@scrolling": {
+          "size": [
+            "85%",
+            "90%"
+          ],
+          "layer": 3
+        }
+      }
+    ]
+  },
+  //Final panel to show
+  //use lang file to change your container title
+  "final_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "main@main_panel": {}
+      }
+    ],
+    "bindings": [
+      {
+        "binding_name": "#crafting_label_text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#crafting_label_text = 'container.newblock.info')", //custom_description in the behavior
+        "target_property_name": "#visible"
+      }
+    ]
+  }
+}

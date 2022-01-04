@@ -1,0 +1,20 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Candy Biome",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"bridge_grass_candy": {
+			"textures": "textures/blocks/grass_candy"
+		},
+		"bridge_dirt_candy": {
+			"textures": "textures/blocks/dirt_candy"
+		},
+		"bridge_log_candy": {
+			"textures": "textures/blocks/log_candy"
+		},
+		"bridge_leave_candy": {
+			"textures": "textures/blocks/leave_candy"
+		}
+	}
+}

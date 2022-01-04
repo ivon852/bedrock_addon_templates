@@ -1,0 +1,10 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bridge:log_candy",
+			"is_experimental": false
+		},
+		"components": {}
+	}
+}

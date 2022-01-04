@@ -1,0 +1,51 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "test:testb"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 1,
+			"minecraft:display_name": "testb",
+			"minecraft:destroy_time": 1,
+			"minecraft:unit_cube": {},
+			"minecraft:entity_collision": true,
+			"minecraft:pick_collision": true,
+			"minecraft:crafting_table": {
+				"custom_description": "manga", // Name shown in GUI, you will use this name in the ui
+				"grid_size": 3, // Currently only supports 3
+				"crafting_tags": [
+					"cooking"
+				]
+			},
+			"minecraft:material_instances": {
+				"up": {
+					"texture": "booktb", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				},
+				"bottom": {
+					"texture": "booktb", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				},
+				"south": {
+					"texture": "bookmanga", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				},
+				"north": {
+					"texture": "bookmanga", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				},
+				"west": {
+					"texture": "bookmanga", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				},
+				"east": {
+					"texture": "bookmanga", // References texture defined in terrain_textures.json
+					"render_method": "opaque" // Options 'blend', 'opaque', 'alpha_test'
+				}
+			}
+		},
+		"events": {},
+		"permutations": []
+	}
+}

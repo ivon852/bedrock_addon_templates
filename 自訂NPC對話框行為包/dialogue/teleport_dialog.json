@@ -1,0 +1,65 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            //第一個對話框
+            {
+                "scene_tag": "menu1",
+                "npc_name": "傳送",
+                "text": "選擇傳送選項",
+                "on_open_commands": [
+                    "/say 你好"
+                ],
+                "on_close_commands": [
+                    "/say 再見"
+                ],
+                "buttons": [
+                    {
+                        "name": "世界原點",
+                        "commands": [
+                            "/tp @initiator 0 128 0"
+                        ]
+                    },
+                    {
+                        "name": "往上或往下",
+                        "commands": [
+                            "/dialogue open @e[type=npc,c=1] @initiator menu2"
+                        ]
+                    }
+                ]
+            },
+            //第二個對話框
+            {
+                "scene_tag": "menu2",
+                "npc_name": "傳送到哪裡?",
+                "text": "選擇一個傳送點",
+                "on_open_commands": [
+                    "/say 你好"
+                ],
+                "on_close_commands": [
+                    "/say 再見"
+                ],
+                "buttons": [
+                    {
+                        "name": "返回上一個介面",
+                        "commands": [
+                            "/dialogue open @e[type=npc,c=1] @initiator menu1"
+                        ]
+                    },
+                    {
+                        "name": "往上",
+                        "commands": [
+                            "/tp @initiator ~ ~+64 ~"
+                        ]
+                    },
+                    {
+                        "name": "往下",
+                        "commands": [
+                            "/tp @initiator ~ ~-64 ~"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

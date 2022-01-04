@@ -1,0 +1,6 @@
+pack.name=糖果生態系資源包
+pack.description=新增生態系並生成建築物範本。by Twitter@Ivon852
+tile.bridge:grass_candy.name=糖果草地
+tile.bridge:dirt_candy.name=糖果泥土
+tile.bridge:log_candy.name=糖果木頭
+tile.bridge:leave_candy.name=糖果樹葉

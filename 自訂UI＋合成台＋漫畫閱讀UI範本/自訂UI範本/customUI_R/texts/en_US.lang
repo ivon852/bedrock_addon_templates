@@ -1,0 +1,13 @@
+container.newblock.info=Info
+tile.info_block.name=Info Block
+
+newblock.info.header1=Aircraft
+newblock.info.text0=Look up to take off, look down to descend. When riding, use item Bullet belt to fire main armament. All aircraft can be repaired with leathers.
+newblock.info.text1=Lockheed P-38
+newblock.info.text2=Messerschmitt Bf 109G6 (Finnish Air Force)
+newblock.info.text3=Supermarine Spitfire Mk.IX
+newblock.info.text4=Vought F4U-1D Corsair
+newblock.info.text5=Kawasaki Type 3 Fighter Ki-61 Hien hei (244 Sentai)
+newblock.info.text6=Messerschmitt Me-163B
+newblock.info.text7=Aichi Type 99 Dive Bomber
+newblock.info.text8=Mitsubishi Navy Type 1 attack bomber (G4M2e). Note:  No button for this aircraft. This vehicle still need to long click with items to attack.

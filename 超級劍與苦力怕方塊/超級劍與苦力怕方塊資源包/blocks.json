@@ -1,0 +1,23 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    //方形苦力怕方塊
+    "newblock:creeperblock": {
+        "textures": {
+            "up": "creeperblock_up",
+            "down": "creeperblock_down",
+            "north": "creeperblock_north",
+            "south": "creeperblock_south",
+            "west": "creeperblock_west",
+            "east": "creeperblock_east"
+        },
+        "sound": "tnt"
+    },
+    //不規則形狀苦力怕方塊
+    "newblock:creeperblock_u": {
+        "sound": "anvil"
+    }
+}

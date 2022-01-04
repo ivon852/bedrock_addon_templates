@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "超級劍與苦力怕方塊行為包",
+		"description": "製作By Twitter@Ivon852。您可自由修改。",
+		"uuid": "02ed0232-a2ae-4458-b91a-c7a5168612e2",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "8d9e262e-7135-49db-a4d9-8a0418cf6edb",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

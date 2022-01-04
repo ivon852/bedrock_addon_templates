@@ -1,0 +1,49 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:tree_feature": {
+		"description": {
+			"identifier": "bridge:candy_tree"
+		},
+		"base_block": [
+			"bridge:grass_candy"
+		],
+		"base_cluster": {
+			"may_replace": [
+				"minecraft:air"
+			],
+			"cluster_radius": 5,
+			"num_clusters": 5
+		},
+		"may_grow_on": [
+			{
+				"name": "bridge:grass_candy"
+			}
+		],
+		"may_replace": [
+			{
+				"name": "minecraft:air"
+			}
+		],
+		"fancy_trunk": {
+			"trunk_block": "bridge:log_candy",
+			"trunk_height": {
+				"base": 12,
+				"variance": 9,
+				"scale": 1
+			},
+			"trunk_width": 2,
+			"width_scale": 1,
+			"foliage_altitude_factor": 0.5,
+			"branches": {
+				"slope": 0.5,
+				"density": 0.2,
+				"min_altitude_factor": 0
+			}
+		},
+		"fancy_canopy": {
+			"height": 5,
+			"radius": 5,
+			"leaf_block": "bridge:leave_candy"
+		}
+	}
+}

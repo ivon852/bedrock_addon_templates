@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "自訂指令行為包",
+		"description": "製作By Twitter@Ivon852。您可自由修改。",
+		"uuid": "f56270fe-3f82-4779-8280-2d7fe8f409f4",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "319674f4-bd87-426f-8f0d-d125c4028ab7",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

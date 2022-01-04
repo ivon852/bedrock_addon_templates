@@ -1,0 +1,361 @@
+{
+	"namespace": "skills_1",
+	"home_screen_content": {
+		"type": "stack_panel",
+		"offset": [
+			0,
+			0
+		],
+		"controls": [
+			{
+				"row1": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga1",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row2": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga2",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row3": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga3",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row4": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga4",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row5": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga5",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row6": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga6",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row7": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga7",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row8": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga8",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row9": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga9",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row10": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga10",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row11": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga11",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row12": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga12",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row13": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga13",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"row14": {
+					"type": "stack_panel",
+					"orientation": "horizontal",
+					"size": [
+						"300%",
+						300
+					],
+					"controls": [
+						{
+							"1": {
+								"type": "image",
+								"texture": "textures/ui/manga14",
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"size": [
+									300,
+									"100%"
+								]
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	"scrolling@common.scrolling_panel": {
+		"$show_background": false,
+		"$scrolling_content": "skills_1.home_screen_content",
+		"layer": 0
+	},
+	"home_screen_border@common_dialogs.main_panel_no_buttons": {
+		"size": [
+			"90%",
+			"70%"
+		],
+		"$text_name": "skillcraft",
+		"$child_control": "skills_1.scrolling"
+	}
+}

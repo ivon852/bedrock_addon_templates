@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			17,
+			0
+		],
+		"uuid": "9c2e8104-71f9-442e-92f0-52dcf4a43338",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "自製皮膚包範本",
+			"type": "skin_pack",
+			"uuid": "541c25fb-f836-4460-975c-f08732c8eef1",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

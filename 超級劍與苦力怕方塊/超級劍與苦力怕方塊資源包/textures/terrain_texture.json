@@ -1,0 +1,31 @@
+{
+	"resource_pack_name": "超級劍與苦力怕方塊資源包",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		//方形苦力怕方塊
+		"creeperblock_north": {
+			"textures": "textures/blocks/creeperblock/north"
+		},
+		"creeperblock_east": {
+			"textures": "textures/blocks/creeperblock/east"
+		},
+		"creeperblock_west": {
+			"textures": "textures/blocks/creeperblock/west"
+		},
+		"creeperblock_south": {
+			"textures": "textures/blocks/creeperblock/south"
+		},
+		"creeperblock_up": {
+			"textures": "textures/blocks/creeperblock/up"
+		},
+		"creeperblock_down": {
+			"textures": "textures/blocks/creeperblock/down"
+		},
+		//不規則形狀苦力怕方塊
+		"creeperblock_u": {
+			"textures": "textures/entity/creeperblock_u"
+		}
+	}
+}

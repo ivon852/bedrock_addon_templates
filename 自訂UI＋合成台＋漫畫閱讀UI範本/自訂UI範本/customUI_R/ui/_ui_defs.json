@@ -1,0 +1,6 @@
+{
+  // Alphabetical order please :)
+  "ui_defs": [
+    "ui/infoui.json" //file name must be unique to avoid conflicts with other addons that also uses this
+  ]
+}

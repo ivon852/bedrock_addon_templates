@@ -1,0 +1,23 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"bridge:grass_candy": {
+		"textures": "bridge_grass_candy",
+		"sound": "grass"
+	},
+	"bridge:dirt_candy": {
+		"textures": "bridge_dirt_candy",
+		"sound": "stone"
+	},
+	"bridge:log_candy": {
+		"textures": "bridge_log_candy",
+		"sound": "wood"
+	},
+	"bridge:leave_candy": {
+		"textures": "bridge_leave_candy",
+		"sound": "grass"
+	}
+}

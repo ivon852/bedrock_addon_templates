@@ -1,0 +1,7 @@
+{
+  // Alphabetical order please :)
+  "ui_defs": [
+      "ui/skills/main.json",
+      "ui/skills/main3.json"
+  ]
+}

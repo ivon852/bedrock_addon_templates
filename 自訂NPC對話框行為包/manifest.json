@@ -1,0 +1,37 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "自訂NPC對話框行為包",
+		"description": "自訂NPC對話框行為包",
+		"uuid": "14510aed-4b13-4ca5-aa33-7d444b33df08",
+		"min_engine_version": [
+			1,
+			16,
+			0
+		],
+		"version": [
+			0,
+			0,
+			1
+		]
+	},
+	"modules": [
+		{
+			"description": "自訂NPC對話框行為包",
+			"type": "data",
+			"uuid": "f00d4edd-4b6d-47db-824a-77dd3dd6c9ee",
+			"version": [
+				0,
+				0,
+				1
+			]
+		}
+	],
+	"metadata": {
+		"authors": [
+			"Ivon852"
+		],
+		"license": "",
+		"url": "https://www.mcbedev.net/"
+	}
+}

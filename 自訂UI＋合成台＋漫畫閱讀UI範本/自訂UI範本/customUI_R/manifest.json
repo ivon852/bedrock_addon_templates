@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Made by Twitter@Ivon Huang",
+        "name": "Custom UI Tutorial Resource pack",
+        "uuid": "3b032ab2-2597-4781-bd88-1e0c7b585c9c",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            17,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Example resource pack",
+            "type": "resources",
+            "uuid": "61fb8c98-3249-40d7-9c10-43e6e0dd0f33",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}

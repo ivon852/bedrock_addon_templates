@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Dakon's block template",
+        "name": "§b§oBlockUI Behavior Pack",
+        "uuid": "d458fe21-3db9-45f3-96c4-289489ce4641",
+        "version": [ 0, 0, 1 ],
+        "min_engine_version": [ 1, 13, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Dakon's block template",
+            "type": "data",
+            "uuid": "7420c2de-bdb1-49b4-a44e-aec9954985aa",
+            "version": [0, 0, 1]
+        }
+    ]
+}

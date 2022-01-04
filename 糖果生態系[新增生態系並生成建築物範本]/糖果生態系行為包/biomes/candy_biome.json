@@ -1,0 +1,46 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "candy_biome"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0.2,
+				"temperature": 15
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "lowlands",
+				"noise_params": [
+					0.4,
+					0.6
+				]
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 5,
+				"sea_floor_material": "minecraft:water",
+				"foundation_material": "bridge:dirt_candy",
+				"mid_material": "bridge:dirt_candy",
+				"top_material": "bridge:grass_candy",
+				"sea_material": "minecraft:water"
+			},
+			"minecraft:overworld_generation_rules": {
+				"generate_for_climates": [
+					[
+						"medium",
+						80
+					],
+					[
+						"warm",
+						80
+					],
+					[
+						"cold",
+						80
+					]
+				]
+			},
+			"candy_biome": {}
+		}
+	}
+}

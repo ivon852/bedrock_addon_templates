@@ -1,0 +1,66 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			17,
+			0
+		],
+		"uuid": "1aa652fb-01a0-4559-be4e-4883d8b7c00f",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "data",
+			"uuid": "b4e71470-ef14-4f9f-b340-fadda885df87",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "javascript",
+			"uuid": "8cea285e-3b47-4bd0-8597-03c8f3d5be72",
+			"entry": "scripts/gametests/Main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "46a49c0f-a55c-4b89-9e11-f2cb2087a6f1",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+			"version": [
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+			"version": [
+				0,
+				1,
+				0
+			]
+		}
+	]
+}

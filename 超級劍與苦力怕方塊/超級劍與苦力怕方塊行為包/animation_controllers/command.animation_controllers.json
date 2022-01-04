@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.command": {
+      "states": {
+        //default，預設的state
+        "default": {
+          "transitions": [
+            //手上拿著超級劍，切換到run_command的state
+            {
+              "run_command": "(query.get_equipped_item_name=='supersword') "
+            }
+          ]
+        },
+        "run_command": {
+          //一進入這個state就執行指令
+          "on_entry": [
+            "/execute @p ~ ~ ~ effect @s regeneration 1 1 true"
+          ],
+          "transitions": [
+            //無條件返回default state
+            {
+              "default": "(1.0)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

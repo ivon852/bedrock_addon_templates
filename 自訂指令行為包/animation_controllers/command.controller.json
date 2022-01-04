@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.command": {
+      "states": {
+        //default，預設的狀態
+        "default": {
+          "transitions": [
+            //條件為跑步時切換到particles
+            {
+              "particles": "query.is_sprinting"
+            }
+          ]
+        },
+        "particles": {
+          //一進入這個狀態就執行指令，也可以直接把多條指令打在這邊，用逗號分隔，不用mcfunction
+          "on_entry": [
+            "/function particles"
+          ],
+          "transitions": [
+            //填1.0，代表無條件返回default的狀態
+            {
+              "default": "(1.0)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

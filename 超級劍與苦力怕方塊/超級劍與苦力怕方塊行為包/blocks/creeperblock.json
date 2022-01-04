@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+        //方塊ID
+            "identifier": "newblock:creeperblock"
+        },
+        "components": {
+            //當玩家敲碎方塊(生存模式)執行事件
+            "minecraft:on_player_destroyed": {
+                "event": "spawn_tnt",
+                "target": "self"
+            }
+        },
+        "events": {
+            //執行指令
+            "spawn_tnt": {
+                "run_command": {
+                    "command": [
+                        "summon tnt",
+                        "summon tnt",
+                        "summon tnt"
+                    ]
+                }
+            }
+        }
+    }
+}

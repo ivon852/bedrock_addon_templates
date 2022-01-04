@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "obj皮膚資包範本",
+		"description": "obj皮膚資源包範本 by Twitter@Ivon852。MMD模型來源:https://3d.nicovideo.jp/works/td41754",
+		"min_engine_version": [
+			1,
+			17,
+			0
+		],
+		"uuid": "b6d005a5-06dd-44d7-881f-d055a2bef22a",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "obj皮膚資包範本",
+			"type": "resources",
+			"uuid": "392d4bd4-a7a6-4729-a82a-387896a8e458",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

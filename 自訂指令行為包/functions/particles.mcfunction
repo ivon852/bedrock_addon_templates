@@ -1,0 +1,1 @@
+particle minecraft:basic_flame_particle ~ ~ ~

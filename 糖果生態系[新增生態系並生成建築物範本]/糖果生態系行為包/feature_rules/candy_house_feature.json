@@ -1,0 +1,36 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "bridge:candy_house_feature",
+			"places_feature": "bridge:candy_house"
+		},
+		"conditions": {
+			"placement_pass": "before_surface_pass"
+		},
+		"distribution": {
+			"iterations": 10,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					8
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					"query.heightmap(variable.worldx, variable.worldz) * 1.5"
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					8
+				]
+			}
+		}
+	}
+}

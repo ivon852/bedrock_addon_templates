@@ -1,0 +1,25 @@
+{
+	"geometry": "skinpacks/skins.json",
+	"skins": [
+		//第一個皮膚
+		{
+			"localization_name": "skin1",
+			//皮膚ID
+			"geometry": "geometry.humanoid.custom",
+			//皮膚使用的模型
+			"texture": "skin1.png",
+			//皮膚材質名稱
+			"type": "free"
+		},
+		//第二個皮膚
+		{
+			"localization_name": "skin2",
+			"geometry": "geometry.humanoid.custom",
+			"texture": "skin2.png",
+			"type": "free"
+		}
+	],
+	//皮膚包名稱
+	"serialize_name": "CustomSkinPack",
+	"localization_name": "CustomSkinPack"
+}

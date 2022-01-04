@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "超級劍與苦力怕方塊資源包",
+		"description": "製作By Twitter@Ivon852。您可自由修改。",
+		"uuid": "79e61791-d346-4877-8bf9-02d8aedf99e4",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "8edb3f40-a2c9-4de5-b71a-00b672ada7f0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

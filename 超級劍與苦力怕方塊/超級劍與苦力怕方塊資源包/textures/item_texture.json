@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "超級劍與苦力怕方塊資源包",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"supersword": {
+			"textures": "textures/items/supersword"
+		}
+	}
+}
