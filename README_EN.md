@@ -1,7 +1,7 @@
 # Bedrock Add-On templates
 Some Add-on templates for Minecraft Bedrock Edition.
 
-[中文說明]()
+[中文說明](https://github.com/ivon852/bedrock_addon_templates/blob/main/README.md)
 
 These templates are for my Bedorck Add-on tutorials in Chinese. Include:
 
