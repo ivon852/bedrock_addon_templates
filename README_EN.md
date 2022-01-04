@@ -1,4 +1,4 @@
-# Bedrock Add-On templates
+# Bedrock Add-On Templates
 Some Add-on templates for Minecraft Bedrock Edition.
 
 [中文說明](https://github.com/ivon852/bedrock_addon_templates/blob/main/README.md)
