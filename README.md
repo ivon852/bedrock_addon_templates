@@ -5,9 +5,9 @@ Add-On templates for Minecraft Bedrock Edition.
 
 這些是Minecraft基岩版Add-On模組的範本。
 
-如果想知道程式碼原理，請到[部落格](https://www.mcbedev.net/2021/07/add-on-1-bridge.html)查看教學。
+一個目錄就是一個完整的Add-On。
 
-每個範本目錄裡面都有一個README.md，裡面有該Add-On範本的詳細教學連結。
+如果想知道程式碼原理，請進入該範本的目錄，查看README.md，裡面有該Add-On範本的詳細教學連結。
 
 此repo包含以下內容:
 
@@ -22,4 +22,4 @@ Add-On templates for Minecraft Bedrock Edition.
 - 自訂NPC對話框
 
 ## 如何使用
-從[Mediafire](https://www.mediafire.com/folder/0fxoez81g3y5o/Tutorial)頁面下載壓縮檔，或者clone這個repo，再按需求修改。每個目錄裡面就是一個Add-On。
+從[Mediafire](https://www.mediafire.com/folder/0fxoez81g3y5o/Tutorial)頁面下載壓縮檔，或者clone這個repo，再按需求修改。
