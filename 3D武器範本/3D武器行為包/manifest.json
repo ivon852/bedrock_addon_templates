@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "By Twitter@Ivon852",
+        "name": "3D武器行為包",
+        "uuid": "f4627388-0c5e-406b-865b-5babd189945a",
+        "version": [ 0, 0, 1 ],
+        "min_engine_version": [ 1, 18, 0 ]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "data",
+            "uuid": "d69a6be7-ec26-481e-aca7-21cd00401347",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.blade.third_person": {
+      "geometry": "Geometry.blade",
+      "materials": [
+        {
+          "*": "Material.Default"
+        }
+      ],
+      "textures": [
+        "Texture.blade"
+      ]
+    },
+    "controller.render.blade.first_person": {
+      "geometry": "Geometry.blade",
+      "materials": [
+        {
+          "*": "Material.Default"
+        }
+      ],
+      "textures": [
+        "Texture.blade"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "3D武器資源包",
+        "name": "3D武器資源包",
+        "uuid": "8506b89f-4b2d-497c-aa81-fc8669da88fc",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 18, 0 ]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "resources",
+            "uuid": "53402283-26fd-433a-a18f-e1845109f4a2",
+            "version": [0, 0, 1]
+        }
+    ]
+}

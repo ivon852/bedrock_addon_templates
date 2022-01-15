@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "newitem:blade",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:hand_equipped": true,
+			"minecraft:display_name": {
+				"value": "item.newitem:blade.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.items"
+			},
+			"minecraft:render_offsets": "tools",
+			"minecraft:icon": {
+				"texture": "blade"
+			},
+			"minecraft:damage": 20,
+			"minecraft:max_stack_size": 1
+		}
+	}
+}

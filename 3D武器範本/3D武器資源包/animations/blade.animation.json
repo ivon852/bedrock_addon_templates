@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.blade.attack": {
+			"animation_length": 1.375,
+			"bones": {
+				"rightarm": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.2917": [
+							-94.4856,
+							-19.67919,
+							97.56111
+						],
+						"0.9583": [
+							60.51,
+							-19.68,
+							97.56
+						],
+						"1.3333": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			}
+		},
+		"animation.player.blade.held": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}
