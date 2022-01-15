@@ -1,5 +1,5 @@
 # Bedrock Add-On Templates
-Some Add-on templates for Minecraft Bedrock Edition.
+Add-On templates for Minecraft Bedrock Edition.
 
 [Readme in English](https://github.com/ivon852/bedrock_addon_templates/blob/main/README_EN.md)
 
