@@ -1,0 +1,5 @@
+item.spawn_egg.entity.newmob:shimakaze.name=生成 島風
+entity.newmob:shimakaze.name=島風
+
+item.spawn_egg.entity.newmob:boku.name=生成 僕水獺
+entity.newmob:boku.name=Boku

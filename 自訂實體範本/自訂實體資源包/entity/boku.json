@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "newmob:boku",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/boku"
+      },
+      "geometry": {
+        "default": "geometry.boku"
+      },
+      //ANIMATIONS
+      "animations": {
+        "moving": "animation.boku.move",
+        "earing": "animation.boku.ears",
+        "attacking": "animation.boku.attack",
+        "eyeing": "animation.boku.eye",
+        "move": "controller.animation.boku.move",
+        "ears": "controller.animation.boku.ears",
+        "attack": "controller.animation.boku.attack",
+        "eye": "controller.animation.boku.eye"
+      },
+      "scripts": {
+        "animate": [
+          "move",
+          "ears",
+          "attack",
+          "eye"
+        ],
+        "pre_animation": [
+          "variable.attack = Math.sin(variable.attack_time * 38.17);"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.newmob"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_boku",
+        "texture_index": 0
+      }
+    }
+  }
+}

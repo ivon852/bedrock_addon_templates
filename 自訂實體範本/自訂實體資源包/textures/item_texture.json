@@ -1,0 +1,21 @@
+{
+  "resource_pack_name": "KanColle RP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "spawn_shimakaze": {
+      "textures": "textures/items/spawn_shimakaze"
+    },
+	"spawn_boku": {
+      "textures": "textures/items/spawn_boku"
+    },
+	"pp_weapon": {
+      "textures": "textures/items/pp_weapon"
+    },
+	"spawn_type99d": {
+      "textures": "textures/items/spawn_type99d"
+    },
+	"spawn_pp_whale": {
+      "textures": "textures/items/spawn_pp_whale"
+    }
+  }
+}

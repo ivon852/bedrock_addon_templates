@@ -1,0 +1,31 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "自訂實體資源包",
+    "description": "By Twitter@Ivon852",
+    "uuid": "adf0b3b6-efc1-450d-9dbc-eabaa3c1232a",
+    "platform_locked": false,
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ],
+    "version": [
+      0,
+      0,
+      1
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "81aedfa2-2bd8-43e5-8d00-39c0d5960876",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

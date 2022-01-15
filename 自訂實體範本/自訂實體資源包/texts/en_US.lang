@@ -1,0 +1,14 @@
+item.spawn_egg.entity.newmob:shimakaze.name=Spawn Shimakaze
+entity.newmob:shimakaze.name=Shimakaze
+
+item.spawn_egg.entity.newmob:boku.name=Spawn Boku Kawauso
+entity.newmob:boku.name=Boku
+
+item.newitem:pp_weapon.name= PP's Weapon
+
+item.spawn_egg.entity.newmob:type99d.name=Spawn Type 99 Dive Bomber
+entity.newmob:boku.name=Type99 Dive Bomber
+
+
+item.spawn_egg.entity.newmob:pp_whale.name=Spawn PP's Whale
+entity.newmob:_pp_whale.name=PP's Whale

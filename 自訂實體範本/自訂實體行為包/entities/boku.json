@@ -1,0 +1,108 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "newmob:boku",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "boku",
+          "mob"
+        ]
+      },
+      //移動速度
+      "minecraft:movement": {
+        "value": 0.21
+      },
+      //攻擊傷害
+      "minecraft:attack": {
+        "damage": 5
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 4,
+        "speed_multiplier": 2,
+        "track_target": true
+      },
+      //血量
+      "minecraft:health": {
+        "value": 99,
+        "max": 99
+      },
+      "minecraft:navigation.generic": {
+        "is_amphibious": false,
+        "can_path_over_water": true,
+        "can_swim": true,
+        "can_walk": true,
+        "can_breach": false,
+        "can_sink": false
+      },
+      //可以移動
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      //抗火
+      "minecraft:fire_immune": true,
+      "minecraft:breathable": {
+        "breathesAir": true,
+        "breathesWater": true
+      },
+      //碰撞箱大小
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 2
+      },
+      //會主動攻擊的對象
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 4,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "monster"
+                }
+              ]
+            }
+          }
+        ],
+        "must_see": true,
+        "within_radius": 64,
+        "reselect_targets": true
+      },
+      //會隨意走動
+      "minecraft:behavior.random_stroll": {
+        "priority": 5
+      },
+      //會看著玩家
+      "minecraft:behavior.look_at_player": {
+        "priority": 6,
+        "look_distance": 5
+      },
+      //會隨便亂看
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      //可拴住
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:balloonable": {},
+      "minecraft:nameable": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    }
+  }
+}
