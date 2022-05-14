@@ -3,7 +3,7 @@ Add-On templates for Minecraft Bedrock Edition.
 
 [Readme in English](https://github.com/ivon852/bedrock_addon_templates/blob/main/README_EN.md)
 
-這些是Minecraft基岩版Add-On模組的範本。
+這些是Minecraft基岩版Add-On模組教學的範本。
 
 一個目錄就是一個完整的Add-On。
 
