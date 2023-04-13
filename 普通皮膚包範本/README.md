@@ -1,5 +1,5 @@
 # 普通皮膚包範本
 
 ## 詳細教學
-- [文章](https://www.mcbedev.net/2021/08/minecraf4d.html)
+- [文章](https://mcbedev.blogspot.com/2021/08/minecraf4d.html)
 - [影片]()
